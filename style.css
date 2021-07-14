@@ -170,4 +170,28 @@ button {
   margin: 1rem;
   padding: 1rem;
 }
+
+@media (min-width: 992px) {
+  /*Modificaciones INDEX*/
+  .nav-links-style {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  /*Modificaciones NOSOTROS*/
+  .flex-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
 /*# sourceMappingURL=style.css.map */
