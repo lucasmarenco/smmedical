@@ -97,12 +97,14 @@ button {
 
 .nav-link {
   color: white !important;
-  margin: auto 3rem;
-  padding: auto 3rem;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  margin: auto 1rem;
+  padding: auto 2rem;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
   width: 95%;
+  /*background: rgba(0, 152, 162, 0.2) ();
+  border-radius: 1rem;*/
 }
 
 .container,
@@ -114,8 +116,6 @@ button {
 .container-xxl {
   padding-right: var(--bs-gutter-x, 0.75rem);
   padding-left: var(--bs-gutter-x, 0.75rem);
-  margin-right: auto;
-  margin-left: auto;
 }
 
 /*Contenido INDEX*/
@@ -125,7 +125,7 @@ button {
   color: white !important;
   width: 90%;
   margin: 1rem;
-  padding-bottom: 1em;
+  padding: 1em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -141,7 +141,7 @@ button {
   color: white !important;
   width: 90%;
   margin: 1rem;
-  padding-bottom: 1em;
+  padding: 1em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -173,7 +173,7 @@ button {
 
 @media (min-width: 992px) {
   /*Modificaciones INDEX*/
-  .nav-links-style {
+  #nav-link-styles {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
     display: flex !important;
