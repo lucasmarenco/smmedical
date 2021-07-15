@@ -42,6 +42,10 @@ header {
   justify-content: center;
   align-content: center;
 }
+
+#container-fluid {
+  justify-content: center;
+}
 #nav-link-styles {
   text-decoration: none;
   color: $third-color !important;
@@ -59,12 +63,19 @@ header {
   background-color: transparent;
   margin: auto 2rem;
   width: 95%;
+  justify-content: center;
 }
 .header-flex {
   align-items: center;
   justify-content: center;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
 }
-
+.logo {
+  margin: auto;
+  justify-content: center;
+}
 .bg-dark {
   background-color: $main-color !important;
 }
@@ -92,17 +103,6 @@ button {
   margin-right: auto;
   margin-left: auto;
   justify-content: center;
-}
-
-.container,
-.container-fluid,
-.container-lg,
-.container-md,
-.container-sm,
-.container-xl,
-.container-xxl {
-  padding-right: var(--bs-gutter-x, 0.75rem);
-  padding-left: var(--bs-gutter-x, 0.75rem);
 }
 
 /*Contenido INDEX*/
