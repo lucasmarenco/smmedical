@@ -107,6 +107,11 @@ button {
 
 /*Contenido INDEX*/
 
+.video-style-resolution {
+  width: 380px;
+  height: 315px;
+}
+
 /*Contenido NOSOTROS*/
 
 .col-sm {
@@ -157,10 +162,29 @@ button {
     margin: auto;
     justify-content: center;
   }
+  .video-style {
+    width: 80%;
+    margin: auto;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: row;
+    .video-style-resolution {
+      width: 500px;
+      height: 450px;
+    }
+    .video-style-texto {
+      margin: auto;
+    }
+  }
 
   /*Modificaciones NOSOTROS*/
   .flex-container {
     display: flex;
     flex-direction: row;
+  }
+  .container-style {
+    width: 80%;
+    margin: auto;
+    justify-content: center;
   }
 }
