@@ -196,6 +196,13 @@ button {
         -ms-flex-pack: center;
             justify-content: center;
   }
+  .carousel-style {
+    width: 80%;
+    margin: auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   /*Modificaciones NOSOTROS*/
   .flex-container {
     display: -webkit-box;
