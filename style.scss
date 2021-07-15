@@ -111,6 +111,26 @@ button {
   width: 380px;
   height: 315px;
 }
+.video-style-texto {
+  margin: auto;
+  //color: $third-color !important;
+  justify-content: center;
+  font-family: "Fjalla One", sans-serif;
+  font-style: italic;
+  color: rgb(192, 196, 243) !important;
+  font-weight: bolder;
+  font-size: 50pt;
+}
+.video-style-texto-button {
+  //background-color: $secondary-color !important;
+  text-decoration: none !important;
+  color: $third-color !important;
+  border-radius: 1rem;
+  margin: auto;
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  justify-content: center;
+}
 
 /*Contenido NOSOTROS*/
 
@@ -174,6 +194,16 @@ button {
     }
     .video-style-texto {
       margin: auto;
+      color: $third-color !important;
+    }
+    .video-style-texto-button {
+      //background-color: $secondary-color !important;
+      text-decoration: none !important;
+      color: $third-color !important;
+      border-radius: 1rem;
+      margin: auto;
+      font-size: 1rem;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
   }
 

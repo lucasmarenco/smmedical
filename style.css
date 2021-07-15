@@ -137,6 +137,30 @@ button {
   height: 315px;
 }
 
+.video-style-texto {
+  margin: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Fjalla One", sans-serif;
+  font-style: italic;
+  color: #c0c4f3 !important;
+  font-weight: bolder;
+  font-size: 50pt;
+}
+
+.video-style-texto-button {
+  text-decoration: none !important;
+  color: white !important;
+  border-radius: 1rem;
+  margin: auto;
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 /*Contenido NOSOTROS*/
 .col-sm {
   text-align: justify;
@@ -228,6 +252,15 @@ button {
   }
   .video-style .video-style-texto {
     margin: auto;
+    color: white !important;
+  }
+  .video-style .video-style-texto-button {
+    text-decoration: none !important;
+    color: white !important;
+    border-radius: 1rem;
+    margin: auto;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   /*Modificaciones NOSOTROS*/
   .flex-container {
