@@ -10,13 +10,13 @@ $main-color: black;
 $secondary-color: #0098a2;
 $third-color: white;
 
-/*BODY*/
+/*BODY------------------------------------------------------------------------------------*/
 body {
   background-color: $main-color;
   width: 100%;
 }
 
-/*FOOTER*/
+/*FOOTER----------------------------------------------------------------------------------*/
 footer div {
   color: white;
   display: flex;
@@ -37,7 +37,7 @@ footer {
   width: 90%;
 }
 
-/*HEADER*/
+/*HEADER---------------------------------------------------------------------------------*/
 header {
   justify-content: center;
   align-content: center;
@@ -105,7 +105,7 @@ button {
   justify-content: center;
 }
 
-/*Contenido INDEX*/
+/*Contenido INDEX----------------------------------------------------------------*/
 
 .video-style {
   display: flex;
@@ -135,7 +135,7 @@ button {
   }
 }
 
-/*Contenido NOSOTROS*/
+/*Contenido NOSOTROS----------------------------------------------------------------*/
 .container-style {
   display: flex;
   flex-direction: column;
@@ -185,8 +185,85 @@ button {
   margin: 1rem;
   padding: 1rem;
 }
+
+/*Contenido INSUMOS---------------------------------------------------------------*/
+
+.contenidoInsumos {
+  display: flex;
+  flex-direction: column;
+}
+.tituloInsumos {
+  margin: auto;
+  padding: 1.5rem;
+  color: rgb(121, 146, 230);
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Fjalla One", sans-serif;
+  font-style: italic;
+}
+.textoInsumos {
+  margin: auto;
+  width: 95%;
+  padding: 1rem;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.imagenReparacion {
+  margin: auto;
+
+  padding-top: 1rem;
+  align-items: center;
+}
+
+/*Contenido CONTACTO ------------------------------------------------------------*/
+.formulario-style {
+  margin: auto;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  color: $third-color;
+  display: flex;
+  flex-direction: column;
+  border: solid 3px $secondary-color;
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 100%;
+}
+.container-style {
+  width: 90%;
+  justify-content: center;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  .container-style p {
+    color: $third-color;
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+    font-family: "Fjalla One", sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+}
+
+.botones {
+  justify-content: center;
+  display: flex;
+}
+.boton-formulario {
+  padding: 0.4em;
+  margin: auto 0.4em;
+  border-radius: 0.3em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: $secondary-color;
+}
+/* AJUSTES DE MEDIA QUERIES ----------------------------------------------------- */
+
 @media (min-width: 992px) {
-  /*Modificaciones INDEX*/
+  /*Modificaciones INDEX-----------------------------------------------------------*/
   #nav-link-styles {
     display: flex !important;
     flex-basis: auto;
@@ -209,7 +286,13 @@ button {
     }
     .video-style-texto {
       margin: auto;
-      color: $third-color !important;
+      //color: $third-color !important;
+      justify-content: center;
+      font-family: "Fjalla One", sans-serif;
+      font-style: italic;
+      color: rgb(192, 196, 243) !important;
+      font-weight: bolder !important;
+      font-size: 30pt !important;
     }
     .video-style-texto-button {
       //background-color: $secondary-color !important;
@@ -217,12 +300,12 @@ button {
       color: $third-color !important;
       border-radius: 1rem;
       margin: auto;
-      font-size: 1rem;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
+      justify-content: center;
     }
   }
 
-  /*Modificaciones NOSOTROS*/
+  /*Modificaciones NOSOTROS--------------------------------------------------------------------*/
   .flex-container {
     display: flex;
     flex-direction: row;
@@ -261,5 +344,79 @@ button {
     color: $third-color;
     font-weight: bolder;
     text-align: center;
+  }
+
+  /* Modificaciones INSUMOS------------------------------------------------------------------------------ */
+
+  .contenidoInsumos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .tituloInsumos {
+    margin: auto;
+    padding: 1rem rgb(121, 146, 230);
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Fjalla One", sans-serif;
+    font-style: italic;
+  }
+  .textoInsumos {
+    margin: auto;
+    padding-top: 1rem;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  .imagenReparacion {
+    width: auto;
+    margin: auto;
+    align-items: center;
+  }
+
+  /*Modificaciones CONTACTO ---------------------------------------------------------------*/
+  .container-style {
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    .container-style p {
+      color: $third-color;
+      text-align: center;
+      margin: auto;
+      padding: 1rem;
+      font-family: "Fjalla One", sans-serif;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+  }
+  .formulario-style {
+    display: flex;
+    justify-content: center;
+    border: solid 3px $secondary-color;
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 100%;
+  }
+  .col-md-4 {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .botones {
+    justify-content: center;
+    display: flex;
+  }
+  .boton-formulario {
+    padding: 0.4em;
+    margin: auto 0.4em;
+    border-radius: 0.3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: $secondary-color;
   }
 }

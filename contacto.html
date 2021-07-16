@@ -86,5 +86,102 @@
         </div>
       </nav>
     </header>
+    <section class="container-style">
+      <div class="container-style">
+        <p>Formulario de contacto</p>
+        <form class="formulario-style" novalidate>
+          <div class="col-md-4 position-relative">
+            <label for="validationTooltip01" class="form-label">Nombre</label>
+            <input
+              type="text"
+              class="form-control"
+              id="validationTooltip01"
+              placeholder="Nombre"
+              required
+            />
+            <div class="valid-tooltip">Looks good!</div>
+          </div>
+          <div class="col-md-4 position-relative">
+            <label for="validationTooltip02" class="form-label">Apellido</label>
+            <input
+              type="text"
+              class="form-control"
+              id="validationTooltip02"
+              placeholder="Apellido"
+              required
+            />
+            <div class="valid-tooltip">Looks good!</div>
+          </div>
+          <div class="col-md-4 position-relative">
+            <label for="validationTooltipUsername" class="form-label"
+              >Correo electrónico</label
+            >
+            <div class="input-group has-validation">
+              <input
+                type="text"
+                class="form-control"
+                id="validationTooltipUsername"
+                aria-describedby="validationTooltipUsernamePrepend"
+                placeholder="Ejemplo@ejemplo.com"
+                required
+              />
+              <div class="invalid-tooltip">
+                Por favor, ingrese un correo electrónico válido.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 position-relative">
+            <label for="validationTooltip04" class="form-label">Provincia</label>
+            <select class="form-select" id="validationTooltip04" required>
+              <option selected disabled value="">Provincia</option>
+              <option value="Exterior de Argentina"> ---Exterior del Argentina---
+                <option ></option>
+                <option value="Buenos Aires">Buenos Aires</option>
+                <option value="CABA">CABA</option>
+                <option value="Catamarca">Catamarca</option>
+                <option value="Chaco">Chaco</option>
+                <option value="Chubut">Chubut</option>
+                <option value="Córdoba">Córdoba</option>
+                <option value="Corrientes">Corrientes</option>
+                <option value="ENtre Ríos">Entre Ríos</option>
+                <option value="Formmosa">Formosa</option>
+                <option value="Jujuy">Jujuy</option>
+                <option value="La Pampa">La Pampa</option>
+                <option value="La Rioja">La Rioja</option>
+                <option value="Mendoza">Mendoza</option>
+                <option value="Misiones"> Misiones</option>
+                <option value="Neuquén">Neuquén</option>
+                <option value="Río Negro">Río Negro</option>
+                <option value="Salta">Salta</option>
+                <option value="San Juan">San Juan</option>
+                <option value="San Luis">San Luis</option>
+                <option value="Santa Cruz">Santa Cruz</option>
+                <option value="Santa Fe">Santa Fe</option>
+                <option value="Santiago del Estero">Santiago del Estero</option>
+                <option value="Tierra del Fuego">Tierra del Fuego</option>
+                <option value="Tucumán">Tucumán</option>
+          
+              </option>
+            </select>
+          </div>
+          <div class="col-md-3 position-relative">
+            <label for="validationTooltip05" class="form-label">Escriba su mensaje</label>
+            <input
+              type="text"
+              class="form-control"
+              id="validationTooltip01"
+              placeholder="Escriba aquí..."
+              required
+            />
+            
+          </div>
+          <br>
+          <div class="botones">
+            <button  class="boton-formulario" type="submit">Enviar</button>
+            <button  class="boton-formulario" type="clear">Limpiar</button>
+          </div>
+        </form>
+      </div>
+    </section>
   </body>
 </html>
