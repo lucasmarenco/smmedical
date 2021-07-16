@@ -198,6 +198,34 @@ button {
   padding: 1rem;
 }
 
+/*Contenido EQUIPOS---------------------------------------------------------------*/
+.container-style-equipos {
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  .container-style-equipos div {
+    justify-content: center;
+    margin: 1rem;
+    display: flex;
+  }
+  .ecografos {
+    width: 100%;
+    border-radius: 1rem;
+    margin: auto;
+    padding: 0.5rem;
+    justify-content: center;
+  }
+  .container-equipos {
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 /*Contenido INSUMOS---------------------------------------------------------------*/
 
 .contenidoInsumos {
@@ -363,6 +391,32 @@ button {
   }
   #carouselExampleFade {
     margin: auto;
+  }
+
+  /* Modificaciones EQUIPOS------------------------------------------------------------------------------ */
+
+  .container-style-equipos {
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    .container-style-equipos div {
+      justify-content: center;
+      margin: 1rem;
+      display: flex;
+    }
+    .ecografos {
+      border-radius: 2rem;
+      margin: auto;
+      padding: 1rem;
+      justify-content: center;
+    }
+    .container-equipos {
+      margin: auto;
+      justify-content: center;
+      align-content: center;
+    }
   }
 
   /* Modificaciones INSUMOS------------------------------------------------------------------------------ */
